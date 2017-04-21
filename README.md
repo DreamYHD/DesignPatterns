@@ -4,4 +4,5 @@
 #### Singleton
 #### Iterator
 #### Builder
+#### Strategy
 
