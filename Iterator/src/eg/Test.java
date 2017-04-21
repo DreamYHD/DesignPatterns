@@ -12,6 +12,8 @@ public class Test {
         mEmployeeAggregate.add(new Employee("yanghaodo",18,180,"nan"));
         Iterator mIterator=mEmployeeAggregate.iterator();
         while (mIterator.hasNext()){
+
+
             System.out.println(mIterator.next());
         }
 
