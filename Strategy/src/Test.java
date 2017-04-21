@@ -5,7 +5,8 @@ public class Test {
 
     public static void main(String[] args) {
         Context mContext=new Context();
-        mContext.setSort(new BubbleSort());
+        mContext.setSort(new
+                BubbleSort());
         mContext.sort();
     }
 }

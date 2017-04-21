@@ -4,13 +4,13 @@
 public class BuilderTest {
 
     public static void main(String[] args) {
-        Car car=new Car.Builder()
+        Car.Builder mBuilder=new Car.Builder()
                 .setColor("green")
                 .setMoney(100)
                 .setName("lanbojini")
-                .setSeat()
-                .build();
-        System.out.println(car.toString());
+                .setSeat();
+        Car mCar=mBuilder.build();
+        System.out.println(mCar.toString());
 
     }
 }
