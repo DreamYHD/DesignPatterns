@@ -1,3 +1,5 @@
+package cn.edu.nuc2;
+
 import java.util.ArrayList;
 import java.util.List;
 

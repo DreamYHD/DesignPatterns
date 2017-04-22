@@ -1,4 +1,4 @@
-package eg;
+package cn.edu.nuc2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,20 +6,18 @@ import java.util.List;
 /**
  * Created by Administrator on 2017/4/21.
  */
-public class AgreegateImp<T> implements Aggregate<T>  {
+public class AggregateImp<T> implements Aggregate<T> {
     private List<T>mTList=new ArrayList<>();
 
-
     @Override
-    public void add(T mT) {
-        mTList.add(mT);
+    public void add(T mO) {
 
+        mTList.add(mO);
     }
 
     @Override
-    public void delete(T mT) {
-
-        mTList.remove(mT);
+    public void delete(T mO) {
+        mTList.remove(mO);
     }
 
     @Override

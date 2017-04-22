@@ -12,7 +12,7 @@ public class SingletonTwoSync {
 
     }
 
-    public static SingletonTwoSync mSingletonTwoSync(){
+    public static SingletonTwoSync getSingletonSync(){
         if (mSingletonSync == null) {
             synchronized (SingletonTwoSync.class){
                 if (mSingletonSync == null) {
@@ -21,7 +21,5 @@ public class SingletonTwoSync {
             }
         }
         return mSingletonSync;
-
     }
-
 }

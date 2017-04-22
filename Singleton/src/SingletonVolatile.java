@@ -17,7 +17,5 @@ public class SingletonVolatile {
         }
         return mSingletonVolatile;
     }
-
-
 }
 

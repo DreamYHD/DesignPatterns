@@ -2,7 +2,8 @@
 ## 复习23种设计模式
 
 #### Singleton
-#### Iterator
+#### cn.edu.nuc2.Iterator
 #### Builder
 #### Strategy
+#### Chain of Responsibility
 
