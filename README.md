@@ -6,4 +6,6 @@
 #### Builder
 #### Strategy
 #### Chain of Responsibility
+#### Factory Method
+#### Abstract Factory
 
