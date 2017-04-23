@@ -8,4 +8,5 @@
 #### Chain of Responsibility
 #### Factory Method
 #### Abstract Factory
+#### Observer
 
