@@ -19,12 +19,13 @@ public class Test {
 
             @Override
             public void complete() {
+                System.out.println("");
 
             }
 
             @Override
             public void wrong() {
-
+                System.out.println();
             }
         };
         mObservable.addObserver(mObserver);

@@ -9,4 +9,5 @@
 #### Factory Method
 #### Abstract Factory
 #### Observer
+#### Template Method
 

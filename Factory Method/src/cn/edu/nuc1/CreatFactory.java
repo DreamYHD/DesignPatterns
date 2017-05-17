@@ -8,12 +8,11 @@ public class CreatFactory extends Factory {
     public <T extends Product> T creatProduct(Class<T> mTClass) {
         Product p=null;
         try {
-            p= (Product) Class.forName(mTClass.getName()).newInstance();
+            p=mTClass.newInstance();
+          //  p= (Product) Class.forName(mTClass.getName()).newInstance();
         } catch (InstantiationException mE) {
             mE.printStackTrace();
         } catch (IllegalAccessException mE) {
-            mE.printStackTrace();
-        } catch (ClassNotFoundException mE) {
             mE.printStackTrace();
         }
 
