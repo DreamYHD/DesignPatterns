@@ -10,4 +10,5 @@
 #### Abstract Factory
 #### Observer
 #### Template Method
+#### Proxy
 

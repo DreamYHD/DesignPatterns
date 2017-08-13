@@ -12,7 +12,6 @@ public class Client  {
 
     public static void main(String[] args) {
 
-
         SubjectImp subjectImp = new SubjectImp();
         //构造一个动态代理
         DynamicProxy dynamicProxy = new DynamicProxy(subjectImp);
@@ -20,10 +19,9 @@ public class Client  {
         /**
          * 1 需要代理的类的classloader
          * 2 目标对象实现的接口
-         * 3 动态代理对象
+         * 3 动态代理对象(把目标交给代理)
          */
-        Subject subject = (Subject) Proxy.newProxyInstance(subjectImp.getClass().getClassLoader(),subjectImp.getClass().getInterfaces(),dynamicProxy);
-
+        Subject subject = (Subject) Proxy.newProxyInstance(Subject.class.getClassLoader(),SubjectImp.class.getInterfaces(),dynamicProxy);
         System.out.println(subjectImp.getClass().getClassLoader());
         System.out.println(Subject.class.getClassLoader());
         subject.visit();
