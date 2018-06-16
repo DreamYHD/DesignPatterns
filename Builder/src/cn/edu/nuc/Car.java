@@ -14,6 +14,7 @@ public class Car {
         seat=mBuilder.seat;
         money=mBuilder.money;
         color=mBuilder.color;
+
     }
 
     @Override
@@ -45,6 +46,7 @@ public class Car {
         public Builder setColor(String mColor){
             this.color=mColor;
             return  this;
+//ce
         }
 
         public Car build(){
